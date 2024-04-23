@@ -7,7 +7,7 @@ name = "vfips"
 version = "1.0.0"
 description = "A Perceptual Quality Metric for Video Frame Interpolation"
 requires-python = ">=3.8"
-dependencies = []
+dependencies = ["torch", "scipy", "tqdm", "opencv-python", "timm", "numpy"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
